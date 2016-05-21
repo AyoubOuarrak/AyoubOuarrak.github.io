@@ -9,7 +9,9 @@ body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
   color: #404040;
+  background-image: url('../img/home-bg.jpg');
 }
+  
 p {
   line-height: 1.5;
   margin: 30px 0;
@@ -43,6 +45,12 @@ blockquote {
 }
 hr.small {
   max-width: 100px;
+  margin: 15px auto;
+  border-width: 4px;
+  border-color: white;
+}
+hr.medium {
+  max-width: 500px;
   margin: 15px auto;
   border-width: 4px;
   border-color: white;
@@ -142,7 +150,9 @@ hr.small {
   background-size: cover;
   -o-background-size: cover;
   margin-bottom: 50px;
+  
 }
+
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
@@ -394,3 +404,22 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
+
+@-webkit-keyframes spinnerRotate
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(360deg);}
+}
+@-moz-keyframes spinnerRotate
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(360deg);}
+}
+@-ms-keyframes spinnerRotate
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(360deg);}
+}
+
+
+
