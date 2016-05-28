@@ -9,7 +9,22 @@ body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
   color: #404040;
-  background-image: url('../img/home-bg.jpg');
+  background-color: rgb(21, 34, 40);
+  background: url('../img/home-bg.png'); 
+}
+
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
 }
   
 p {
@@ -420,6 +435,7 @@ body {
     from{-ms-transform:rotate(0deg);}
     to{-ms-transform:rotate(360deg);}
 }
+
 
 
 
