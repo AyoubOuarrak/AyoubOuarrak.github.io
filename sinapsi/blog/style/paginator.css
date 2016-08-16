@@ -1,9 +1,0 @@
-.pagination span.current {
-    background-color: #687282;
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.pagination span.disabled {
-    color: #DDDDDD;
-}
