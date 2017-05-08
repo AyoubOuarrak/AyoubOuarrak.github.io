@@ -434,6 +434,11 @@ img::-moz-selection {
     to{-ms-transform:rotate(360deg);}
 }
 
+.sketches {
+     display: block;
+    margin: auto;
+    width: 50%;
+}
 
 
 
